@@ -14,7 +14,7 @@ const turnChange = ()=>{
 
 
 const playrewin = ()=>{
-       let boxtext = document.getElementsByClassName('boxtext');
+       let boxtext = document.getElementsByClassName('box');
         let wins = [
            [2, 4, 6],
            [0, 1, 2],
@@ -40,7 +40,7 @@ const playrewin = ()=>{
 
    let boxes = document.getElementsByClassName("square");
 Array.from(boxes).forEach(element =>{
-   let boxtext = element.querySelector('.boxtext');
+   let boxtext = element.querySelector('.box');
    element.addEventListener('click', ()=>{
        if(boxtext.innerText === ''){
            boxtext.innerText = turn;
@@ -55,7 +55,7 @@ Array.from(boxes).forEach(element =>{
 })
 
 reset.addEventListener('dblclick', ()=>{
-   let boxtexts = document.querySelectorAll('.boxtext');
+   let boxtexts = document.querySelectorAll('.box');
    Array.from(boxtexts).forEach(element => {
        element.innerText = ""
    });
