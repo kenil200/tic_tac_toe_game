@@ -2,16 +2,14 @@
     margin: 0%;
     padding: 0%;
 }
-/* commann css end */
-/* game strat*/
+
 
 .heding{
     text-align: center;
     font-size: 70px;
     font-weight: bolder;
-    text-shadow: 5px 5px 25px;
 }
-.game_box{
+.game_boxs_1{
     display: flex;
     justify-content: center;
 }
@@ -28,7 +26,7 @@
     align-items: center;
 }
 .square:hover{
-    background-color: rgba(162, 90, 170, 0.467);
+    background-color: rgba(219, 122, 230, 0.467);
 }
 .boxtext{
     font-size: 100px;
@@ -45,9 +43,6 @@
 .bb-0{
     border-bottom: 0;
 }
-
-/* game end*/
-/* menu strat */
 .game_menu{
     margin-left: 300%;
 }
@@ -99,5 +94,5 @@
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
-    text-shadow: 5px 5px 25px;
+  
 }
