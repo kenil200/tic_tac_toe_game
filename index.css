@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* commann css end */
+/* game strat*/
+
+.heding{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 25px;
+}
+.game_box{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.square{
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square:hover{
+    background-color: rgba(162, 90, 170, 0.467);
+}
+.boxtext{
+    font-size: 100px;
+}
+.bt-0{
+    border-top: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+/* game end*/
+/* menu strat */
+.game_menu{
+    margin-left: 300%;
+}
+#player1{
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+#player1:hover{
+    background: rgb(245, 248, 245);;
+}
+
+#player2{
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid black;
+    margin-top: 50px;
+}
+#player2:hover{
+    background: rgba(255, 255, 255, 0.294);
+
+}
+#reset{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(206, 184, 184, 0.4);
+    border: 2px solid black;
+    margin-top: 50px;
+}
+#reset:hover{
+    background: rgb(128, 128, 128);
+}
+.detail{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 25px;
+}
